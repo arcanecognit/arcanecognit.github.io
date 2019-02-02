@@ -21,7 +21,10 @@ h2 + p {
 }
 /* HEADER STYLES */
 .header {
-
+  background-color: #aaa;
+  height: 300px;
+  position: relative;
+  width: 100%;
 }
 .header-nav {
   float: right;
@@ -30,6 +33,11 @@ h2 + p {
 .header-nav > li {
   display: inline-block;
   margin-left: 1em;
+}
+.header-logo {
+  bottom: -50px;
+  position: absolute;
+  right: 50px;
 }
 .header-nav a {
   color: #000;
